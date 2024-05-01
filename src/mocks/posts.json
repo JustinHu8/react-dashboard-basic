@@ -1,0 +1,18 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "author": "John Doe",
+            "createdAt": "2022-01-01T10:00:00Z"
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+            "author": "Jane Smith",
+            "createdAt": "2022-01-02T14:30:00Z"
+        }
+    ]
+}

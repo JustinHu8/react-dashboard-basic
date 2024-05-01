@@ -1,0 +1,83 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "john_doe",
+            "email": "john.doe@example.com",
+            "posts": [
+                {
+                    "id": 101,
+                    "title": "John's First Post",
+                    "content": "Hello, this is John's first post!",
+                    "comments": [
+                        {
+                            "id": 1001,
+                            "authorId": 2,
+                            "content": "Great post, John!"
+                        },
+                        {
+                            "id": 1002,
+                            "authorId": 3,
+                            "content": "Looking forward to reading more!"
+                        }
+                    ]
+                },
+                {
+                    "id": 102,
+                    "title": "John's Second Post",
+                    "content": "Another day, another post by John.",
+                    "comments": [
+                        {
+                            "id": 1003,
+                            "authorId": 2,
+                            "content": "Keep them coming!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "username": "jane_doe",
+            "email": "jane.doe@example.com",
+            "posts": [
+                {
+                    "id": 103,
+                    "title": "Jane's Insight",
+                    "content": "Here's some insight from Jane.",
+                    "comments": [
+                        {
+                            "id": 1004,
+                            "authorId": 1,
+                            "content": "Very insightful, thanks Jane!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "username": "alice_wonder",
+            "email": "alice.wonder@example.com",
+            "posts": [
+                {
+                    "id": 104,
+                    "title": "Alice's Adventures",
+                    "content": "Let me tell you about my adventures.",
+                    "comments": [
+                        {
+                            "id": 1005,
+                            "authorId": 1,
+                            "content": "Sounds exciting, Alice!"
+                        },
+                        {
+                            "id": 1006,
+                            "authorId": 2,
+                            "content": "Can't wait to hear more!"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
